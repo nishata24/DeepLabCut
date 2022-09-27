@@ -16,9 +16,9 @@ for cuda and driver compatibility see https://github.com/DeepLabCut/DeepLabCut/b
 
 In the command prompt, use nvidia-smi and nvcc -V to check what driver and cuda are installed.
 
-# Step 3: clone the DeepLabCut github, for example with git bash
+## Step 3: clone the DeepLabCut github, for example with git bash
 
-# Step 4: create conda environment
+## Step 4: create conda environment
 Open anaconda prompt in administrative mode.
 
 In the anaconda prompt:
@@ -33,7 +33,7 @@ conda activate DLC-GPU
 This is a fix to a known bug, (https://github.com/DeepLabCut/DeepLabCut/issues/1106)
 conda install -c conda-forge ffmpeg
 
-# Step 5: update DeepLabCut version
+## Step 5: update DeepLabCut version
 The .yaml file will install an old version of deeplabcut ‘2.1.10.4’. The updated version is ‘2.2rc1’ (https://github.com/DeepLabCut/DeepLabCut/wiki/How-to-use-the-latest-GitHub-code).
 
 To check current deeplabcut version:
@@ -56,16 +56,16 @@ pip install C:\Users\LabMi\Documents\GitHub\DeepLabCut\dist\deeplabcut-2.2rc1-py
 
 Recheck deeplabcut version is correct
 
-# Step 6: run testscript.py
+## Step 6: run testscript.py
 After this, running the testscript.py file should hopefully work!
 
 cd C:\Users\LabMi\Documents\GitHub\DeepLabCut\examples
 
 python testscript.py
 
-# Final Environment Details Following Installation 
+## Final Environment Details Following Installation 
 Using command: conda list cudnn
-# Name                    Version                   Build  Channel
+Name                      Version              Build  Channel
 cudnn                     7.6.5.32             h37a4af2_1    conda-forge
 
 Using command: nvcc -V
