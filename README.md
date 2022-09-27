@@ -5,10 +5,10 @@ This is a condensed installation summary that worked for the following system:
 Windows 10, Geforce RTX 2080
 Installation through Anaconda environment is recommended
 
-# Step 1: Prerequisite
+## Step 1: Prerequisite
 Install Anaconda and Python 3.7 or higher (https://www.anaconda.com/distribution/)
 
-# Step 2: Installing Cuda
+## Step 2: Installing Cuda
 There is a CPU and a GPU version, these steps are for the GPU version which requires you to install a nvidia cuda and driver.
 
 For this system, first install cuda 9.0.176 (https://developer.nvidia.com/cuda-downloads) and then nvidia driver 462.31 (https://www.nvidia.com/Download/index.aspx)
