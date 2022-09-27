@@ -62,3 +62,15 @@ After this, running the testscript.py file should hopefully work!
 cd C:\Users\LabMi\Documents\GitHub\DeepLabCut\examples
 
 python testscript.py
+
+# Final Environment Details Following Installation 
+Using command: conda list cudnn
+# Name                    Version                   Build  Channel
+cudnn                     7.6.5.32             h37a4af2_1    conda-forge
+
+Using command: nvcc -V
+Cuda compilation tools, release 9.0, V9.0.176
+
+tensorflow version
+1.15.5
+
