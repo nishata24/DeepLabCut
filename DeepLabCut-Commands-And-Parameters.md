@@ -1,3 +1,5 @@
+# DeepLabCut Commands
+
 ## Creating Training Dataset: deeplabcut.create_training_dataset(config, num_shuffles=1, Shuffles=None, windows2linux=False, userfeedback=False, trainIndexes=None, testIndexes=None, net_type=None, augmenter_type=None)
 Possible augmenter types are: default, imgaug, tensorpack, and deterministic.
 Data augmentation is automatically accomplished by DLC, but default values can be overwritten before training. 
