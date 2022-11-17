@@ -3,7 +3,7 @@ Update iteration number in config.yaml. If you do not create a new iteration, in
 ### Step 2 
 Change model type to resnet_101 in config.yaml and pose_cfg.yaml in the train subdirectory. 
 ### Step 3 
-Change init_weights in pose_cfg.yaml in the train subdirectory to the path of the latest snapshot from the pretrained model. The path should exclude the extension of the snapshot. 
+Change init_weights in pose_cfg.yaml in the train subdirectory to the path of the latest snapshot from the pretrained model. The path should exclude the extension of the snapshot. This path can be found in the dlc-models/iteration/train subdirectory.
 ### Step 4 
 Create a new training set with resnet_101 by running deeplabcut.create_training_dataset. 
 ### Step 5
