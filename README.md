@@ -1,4 +1,4 @@
-# DeepLabCut
+# DeepLabCut Installation and Use
 Learn how to install DeepLabCut on a Windows device and use it to label novel videos.
 
 This is a condensed installation summary that worked for the following system:
